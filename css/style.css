@@ -1,0 +1,147 @@
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    
+}
+
+
+/* header */
+body
+.header{
+    padding: 30px 31px;
+}
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu{
+    color: #292929;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header__logo{
+    margin-left: 274px;
+    width: 79.565px;
+    height: 23.04px;
+    flex-shrink: 0;
+    margin-right: auto;
+}
+
+.header__item{
+    margin-left: 72px;
+}
+
+.header__menu .header__item:last-child {
+    margin-right: 226px;
+}
+
+.header__menu .header__item:first-child {
+    margin-left: auto;
+}
+
+
+.header__item_g{
+    margin-right: 276;
+    color: #FBFAF7;
+    display: inline-flex;
+    padding: 13px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 4px;
+    border: 1px solid #01996D;
+    background: #01996D;
+}
+
+
+/* intro */
+
+.intro__wrap{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.intro__bg{
+    max-width: 100%;
+    height: auto;
+}
+
+.intro__texts{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 294px;
+    width: 420px;
+    height: 123px;
+    flex-shrink: 0;
+    margin-top: 179px;
+    margin-bottom: 423px;
+    
+}
+
+.intro__title{
+    color: #01996D;
+    font-family: Georgia;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 520px;
+    
+}
+.intro__text{
+    color: #484848;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157%; 
+}
+
+.intro__btn{
+    margin-top: 18px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
+
+.intro__btn_b{
+    border-radius: 4px;
+    border: 1px solid #01996D;
+    background: #01996D;
+    width: 127px;
+    height: 25px;
+    display: inline-flex;
+    padding: 20px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
